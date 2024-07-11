@@ -1,0 +1,102 @@
+.amf {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+
+}
+.th{
+padding-top: 47.25px;
+padding-left: 141.75px;
+
+}
+.dr{
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+color: black;
+background: white;
+padding: 15px;
+}
+.lth{
+  padding-right: 157.37px;
+  padding-top: 36.02px;
+
+}
+#hero{
+  background-image: url(../assets/Hero-bg.png);
+  height: 612.88px;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 124.19px;
+  bottom: 4230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.cntnr{
+  position: absolute;
+  /* width: 938.91px; */
+  height: 551.736px;
+  left: 209.508px;
+  right: 209.508px;
+  top: 147.58px;
+  bottom: 4271.68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 0px;
+  
+  
+  
+}
+.grp{
+  /* Group */
+/* position: absolute; */
+width: 240.28px;
+height: 240px;
+left: 257.67%;
+right: -257.67%;
+padding-bottom: 30px;
+}
+.hd{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 30px;
+}
+.txt{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 30px;
+}
+.btn{
+  padding: 30px 60px 30px 60px;
+  color: white;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+}
