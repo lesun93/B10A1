@@ -286,7 +286,7 @@ padding: 32px;
   align-items: center;
 position: static;
 width: 1140px;
-height: 463px;
+height: 496px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -358,6 +358,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+padding-bottom: 40px;
 }
 .hll{
   color: rgb(13, 19, 33);
@@ -437,4 +438,111 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 8px 0px;
+}
+.sprt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/handshake.jpg);
+  /* Frame 8 */
+position: absolute;
+width: 1500px;
+height: 300px;
+left: 150px;
+right: 150px;
+top: 4040px;
+bottom: 179px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+
+}
+.lcl{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 380px;
+}
+.shead{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 64px;
+padding-bottom: 20px;
+}
+.stx{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+padding-bottom: 20px;
+
+}
+.sbtn{
+  /* Frame 23 */
+position: static;
+width: 684px;
+height: 58px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.plct{
+  padding: 18px 160px 18px 18px;
+}
+.arr{
+  ;width: 400px;
+height: 19px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.plt{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding-left: 20px;
+}
+.csk{
+  padding-left: 350px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
 }
