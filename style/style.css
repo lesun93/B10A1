@@ -4,6 +4,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.hdr{
+  height: 2550px;
+}
 *{
   margin: 0;
   padding: 0;
@@ -41,7 +44,7 @@ padding: 15px;
   left: 0;
   right: 0;
   top: 124.19px;
-  bottom: 4230px;
+  /* bottom: 4230px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,9 +97,187 @@ letter-spacing: 0%;
 text-align: center;
 padding-bottom: 30px;
 }
+#btntxt{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
 .btn{
   padding: 30px 60px 30px 60px;
   color: white;
   border-radius: 8px;
   background: rgb(13, 19, 33);
+}
+
+
+.sh{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 44px;
+}
+.ph{
+  color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.qh{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.nhd{
+  border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);/* Frame 13 */
+position: absolute;
+width: 940.72px;
+height: 1380px;
+left: 230px;
+right: 152px;
+top: 1010px;
+bottom: 2993px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 75.84px 234.156px 75.84px 234.156px;
+
+
+}
+.wwd{
+  /* Frame 8 */
+position: static;
+width: 1164px;
+height: 264.52px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 45.504px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 30.336px 0px;
+border-radius: 15.168px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.texth{
+  color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 32px;
+}
+.textp{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+padding-bottom: 32px;
+
+}
+.textbtn{
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.btntxt{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 12px 20px 12px 20px;
+}
+.ct{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.mi{
+  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.lorem{
+position: static;
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+.dt{
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+
+}
+.link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
