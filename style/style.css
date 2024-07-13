@@ -25,7 +25,6 @@ padding-left: 141.75px;
   box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 border-radius: 8px;
-
 opacity: 0.8;
 color: black;
 background: white;
@@ -44,7 +43,6 @@ padding: 15px;
   left: 0;
   right: 0;
   top: 124.19px;
-  /* bottom: 4230px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +51,6 @@ padding: 15px;
 
 .cntnr{
   position: absolute;
-  /* width: 938.91px; */
   height: 551.736px;
   left: 209.508px;
   right: 209.508px;
@@ -69,8 +66,6 @@ padding: 15px;
   
 }
 .grp{
-  /* Group */
-/* position: absolute; */
 width: 240.28px;
 height: 240px;
 left: 257.67%;
@@ -149,7 +144,6 @@ left: 230px;
 right: 152px;
 top: 1010px;
 bottom: 2993px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -159,19 +153,14 @@ padding: 75.84px 234.156px 75.84px 234.156px;
 
 }
 .wwd{
-  /* Frame 8 */
 position: static;
 width: 1164px;
 height: 264.52px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 45.504px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -292,9 +281,6 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding-left: 200px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 align-self: stretch;
@@ -302,19 +288,14 @@ flex-grow: 0;
 margin: 111px 0px;
 }
 .mnop{
-  /* Frame 10 */
 position: static;
 width: 364px;
 height: 300px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 40px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -323,19 +304,14 @@ margin: 0px 24px;border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
 }
 .mno{
-  /* Frame 18 */
 position: static;
 width: 1140px;
 height: 300px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
-
-
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -545,4 +521,19 @@ padding-left: 20px;
   display: flex;
   flex-direction: row;
   padding-top: 32px;
+}
+.lst{
+  
+position: absolute;
+width: 1610px;
+height: 0px;
+left: 0;
+top: 4500px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 50px 150px 50px 150px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
 }
